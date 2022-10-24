@@ -38,7 +38,7 @@ public class MenuPrincipal extends JFrame {
 		setForeground(Color.BLACK);
 
 		// Seteo titulo
-		setTitle("Menu Principal | Supermercado UADE");
+		setTitle("Menu Principal | Supermercado Rodrigo");
 		// Salgo del sistema
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1031, 553);
@@ -223,7 +223,7 @@ public class MenuPrincipal extends JFrame {
 		JButton btnSalir = new JButton("Salir del Sistema");
 		btnSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (JOptionPane.showConfirmDialog(btnSalir, "¿Esta seguro de salir del sistema?", "Salir",
+				if (JOptionPane.showConfirmDialog(btnSalir, "ï¿½Esta seguro de salir del sistema?", "Salir",
 						JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.YES_OPTION) {
 					System.exit(0);
 				}

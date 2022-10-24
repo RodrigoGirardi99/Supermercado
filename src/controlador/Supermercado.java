@@ -39,8 +39,8 @@ public class Supermercado {
 		crearNuevoProducto("2", "Zapallo", "Marca Falsa", "2", 10f, 10, 20, 100);
 		crearNuevoProducto("3", "Girasol", "Marca Falsa", "1", 5f, 10, 20, 100);
 		crearNuevoProducto("4", "Berenjena", "Marca Falsa", "2", 35f, 40, 20, 100);
-		abrirCaja(fecha, "1", "Facundo", 1000f);
-		inicioVenta(fecha, "1", "Facundo", "1");
+		abrirCaja(fecha, "1", "Rodrigo", 1000f);
+		inicioVenta(fecha, "1", "Rodrigo", "1");
 	}
 
 	public ArrayList<Venta> getVentas() {
